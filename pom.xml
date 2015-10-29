@@ -42,11 +42,6 @@
     </dependency>
     <!--Redis依赖，只有在使用RedisTokenManager时才需要-->
     <dependency>
-      <groupId>org.springframework.data</groupId>
-      <artifactId>spring-data-redis</artifactId>
-      <version>1.6.0.RELEASE</version>
-    </dependency>
-    <dependency>
       <groupId>redis.clients</groupId>
       <artifactId>jedis</artifactId>
       <version>2.7.3</version>
