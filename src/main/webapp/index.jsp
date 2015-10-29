@@ -6,8 +6,8 @@
 </head>
 <body>
 
-令牌：<input type="text" id="token"><br />
 用户名：<input type="text" id="username"><br />
+令牌：<input type="text" id="token"><br />
 <input type="button" value="登录" id="login" />
 <input type="button" value="查看登录用户名" id="show" />
 <input type="button" value="退出登录" id="logout" /><br />
