@@ -29,8 +29,6 @@ public class TokenController {
 
     @RequestMapping(method = RequestMethod.POST)
     public ResponseEntity<ResultModel> createToken(@RequestParam String username) {
-        //如果是单点登录的话，清除掉其他token
-        tokenManager.delRelationshipByKey(username);
         //生成一个token
         String token = UUID.randomUUID().toString();
         tokenManager.createRelationship(username, token);
